@@ -2,7 +2,7 @@
 
 Represent a dog as an object. Your dog has two properties, `name` and `age`. There should be three functions that represent this age in years, days, and dog years (every year is 7 dog years).
 
-The three functions should be attached to the protoype while the `name` and `age` properties should be attached to each new object.
+The three functions should be attached to the prototype while the `name` and `age` properties should be attached to each new object.
 
 ## Properties defined on the instance Vs. Functions defined on the prototype
 
@@ -10,7 +10,7 @@ Prototypes in JavaScript are what store 'instance methods', which is different t
 
 JavaScript instances do not store any methods from their prototype; instead, they will refer back to prototype every time the method is called.  This is much more memory efficient, but has the draw back of being less clear.
 
-This means that every new instance of a prototype share _one_ copy of a method defined on the protoype.  This also means that every instance shares the same property if it is defined on the prototype.  A property defined on the prototype can be though of more like a Ruby `constant`.
+This means that every new instance of a prototype share _one_ copy of a method defined on the prototype.  This also means that every instance shares the same property if it is defined on the prototype.  A property defined on the prototype can be though of more like a Ruby `constant`.
 
 ex.
 ```javascript
